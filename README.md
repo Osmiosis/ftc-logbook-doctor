@@ -1,33 +1,24 @@
 # AI GENERATED FROM USER REPOSITORY
 
-# 🤖 FTC Log Doctor
+FTC Log Doctor: A Cross-Modal Prognostic Framework🚀 
+The Vision: Beyond Reactive MaintenanceIn high-stakes robotics, failure is often treated as an accident. FTC Log Doctor treats failure as a predictable data signature.This platform moves robotics from Reactive Repairs to Prognostic Health Management (PHM). By synthesizing asynchronous log streams, it identifies the "Silent Drifts"—mathematical deviations in power and compute—that precede catastrophic hardware failure.
+🧠 Core Innovation: The Intelligence Engine1. Cross-Modal Failure SynthesisTraditional diagnostics monitor sensors in isolation. My engine implements temporal correlation logic to link hardware fluctuations with software execution logs.
+The Logic: drop > 1.0V within 500ms of a MotorTimeout log triggers a High-Current Draw Event.The Impact: Distinguishes between a weak battery (simple drop) and a mechanical stall (correlated drop + timeout).
+2. Algorithmic Jitter & Determinism AnalysisReal-time systems require determinism. This tool uses the Coefficient of Variation (CV) of control loop latency to quantify "Jitter."
+Insight: Detects non-deterministic spikes caused by Java Garbage Collection (GC) or thread-locking, ensuring stable PID control loops.
+3. Predictive Match Survival (ML) Using scikit-learn, the platform trains a Linear Regression model on live battery discharge curves to predict the voltage at the t=150s mark.
+Prognostic: Provides a survival probability and an confidence score, allowing teams to ground a robot before a brownout occurs.
+4. Tournament-Scale Trend Analysis (Longitudinal Data)The system supports Batch Processing to identify Thermal Heat Soak. By plotting health metrics across 10+ matches, it detects if hardware impedance is increasing due to thermal fatigue over the course of a tournament.
+🛠️ Tech Stack & EngineeringData Science: Pandas (Vectorized manipulation), NumPy (Statistical analysis)Machine Learning: Scikit-learn (Linear Regression, Polynomial Features)Visualization: Plotly (Interactive Time-Series), Streamlit (UI)Software Engineering: Regex (Pattern Matching), PyTest (Unit Testing), Modular Architecture📊 Dashboard ModulesTabFunctionTKS 
+Insight🧠 AI DiagnosticsEvent CorrelationIdentifies root-cause failures via multi-modal data synthesis.
+📈 Tournament TrendsLongitudinal DriftTracks mechanical fatigue and "Heat Soak" across matches.
+⏱️ Loop AnalysisStatistical JitterQuantifies software determinism via Coefficient of Variation.
+🔋 Battery AnalysisML PrognosticsPredicts electrochemical failure horizons.
 
-A Python-based web application for analyzing and diagnosing FTC (FIRST Tech Challenge) robot health from Android logcat log files.
+🏗️ Project ArchitecturePlaintextftc-log-doctor/
 
-## Features
+🏁 Impact & Scaling (The Moonshot)While built for the FIRST Tech Challenge, the underlying framework is a prototype for Generalized Edge-Diagnostic Platforms.By applying this "Failure DNA" identification to Autonomous Last-Mile Delivery Fleets or Industrial IoT (IIoT), we can reduce global downtime by shifting the industry from scheduled maintenance to Condition-Based Monitoring.
 
-- 📊 **Battery Voltage Analysis**: Track voltage drops and identify power issues
-- ⏱️ **Loop Time Monitoring**: Detect performance spikes and bottlenecks
-- 🔌 **Disconnect Detection**: Identify connection issues and device failures
-- 📈 **Visual Diagnostics**: Interactive charts and timeline views
-- 🧠 **AI-Powered Diagnostics**: Event correlation and intelligent pattern detection
-- 🤖 **ML Battery Prediction**: Machine learning model predicts if battery will survive full match
-- ⚡ **High Current Detection**: Correlates battery drops with motor timeouts
-- 💯 **Health Scoring**: Automated robot health score (0-100) with actionable recommendations
-
-## Tech Stack
-
-- **Python 3.14+**
-- **Streamlit**: Web UI framework
-- **Pandas**: Data manipulation and analysis
-- **Plotly**: Interactive visualizations
-- **scikit-learn**: Machine learning for battery prediction
-- **NumPy**: Numerical computations
-- **Regex**: Log parsing
-
-## Project Structure
-
-```
 ftc-log-doctor/
 ├── app.py                          # Main Streamlit application
 ├── requirements.txt                # Python dependencies
