@@ -1,6 +1,6 @@
 # FTC Log Doctor: A Cross-Modal Prognostic Framework
 
-## 🚀 The Vision: Beyond Reactive Maintenance
+## The Vision: Beyond Reactive Maintenance
 
 In high-stakes robotics, failure is often treated as an accident. **FTC Log Doctor treats failure as a predictable data signature.**
 
@@ -8,7 +8,7 @@ This platform moves robotics from **Reactive Repairs** to **Prognostic Health Ma
 
 ---
 
-## 🧠 Core Innovation: The Intelligence Engine
+## Core Innovation: The Intelligence Engine
 
 ### 1. Cross-Modal Failure Synthesis
 
@@ -36,7 +36,7 @@ The system supports **Batch Processing** to identify **Thermal Heat Soak**. By p
 
 ---
 
-## 🛠️ Tech Stack & Engineering
+## Tech Stack & Engineering
 
 - **Data Science:** Pandas (Vectorized manipulation), NumPy (Statistical analysis)
 - **Machine Learning:** Scikit-learn (Linear Regression, Polynomial Features)
@@ -46,19 +46,19 @@ The system supports **Batch Processing** to identify **Thermal Heat Soak**. By p
 
 ---
 
-## 📊 Dashboard Modules
+## Dashboard Modules
 
 | Tab | Function | Key Insight |
 |-----|----------|-------------|
-| 🧠 **AI Diagnostics** | Event Correlation | Identifies root-cause failures via multi-modal data synthesis |
-| 📈 **Tournament Trends** | Longitudinal Drift | Tracks mechanical fatigue and "Heat Soak" across matches |
-| ⏱️ **Loop Analysis** | Statistical Jitter | Quantifies software determinism via Coefficient of Variation |
-| 🔋 **Battery Analysis** | ML Prognostics | Predicts electrochemical failure horizons |
-| 🔌 **Connection Events** | Disconnect Detection | Identifies USB/hardware connection issues |
+| **AI Diagnostics** | Event Correlation | Identifies root-cause failures via multi-modal data synthesis |
+| **Tournament Trends** | Longitudinal Drift | Tracks mechanical fatigue and "Heat Soak" across matches |
+| **Loop Analysis** | Statistical Jitter | Quantifies software determinism via Coefficient of Variation |
+| **Battery Analysis** | ML Prognostics | Predicts electrochemical failure horizons |
+| **Connection Events** | Disconnect Detection | Identifies USB/hardware connection issues |
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 ftc-log-doctor/
@@ -75,7 +75,7 @@ ftc-log-doctor/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -103,7 +103,7 @@ The application will open in your browser at `http://localhost:8502`
 
 ---
 
-## 📋 Features
+## Features
 
 ### Single Match Diagnosis
 - Real-time log parsing and analysis
@@ -129,7 +129,7 @@ The application will open in your browser at `http://localhost:8502`
 
 ---
 
-## 🧪 Sample Data
+## Sample Data
 
 The project includes 5 diverse sample log files for testing:
 
@@ -141,22 +141,7 @@ The project includes 5 diverse sample log files for testing:
 
 ---
 
-## 🏁 Impact & Scaling (The Moonshot)
-
-While built for the **FIRST Tech Challenge**, the underlying framework is a prototype for **Generalized Edge-Diagnostic Platforms**.
-
-By applying this "Failure DNA" identification to **Autonomous Last-Mile Delivery Fleets** or **Industrial IoT (IIoT)**, we can reduce global downtime by shifting the industry from **scheduled maintenance** to **Condition-Based Monitoring**.
-
-### Key Differentiators
-
-1. **Cross-Modal Synthesis:** Links disparate data streams (power + logs) temporally
-2. **Prognostic vs. Diagnostic:** Predicts failures before they occur
-3. **Statistical Rigor:** Uses CV, correlation windows, and ML confidence scores
-4. **Scalable Architecture:** Modular design supports expansion to fleet-scale monitoring
-
----
-
-## 📊 Technical Specifications
+## Technical Specifications
 
 ### Event Correlation Engine
 - **Temporal Window:** ±500ms for battery-motor correlation
@@ -177,13 +162,13 @@ By applying this "Failure DNA" identification to **Autonomous Last-Mile Delivery
 
 ---
 
-## 📄 License
+## License
 
 This project is built for educational purposes as part of the FIRST Tech Challenge.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! This framework can be extended to:
 - Support additional log formats
@@ -192,5 +177,3 @@ Contributions are welcome! This framework can be extended to:
 - Integrate with telemetry systems
 
 ---
-
-**Built with precision. Engineered for resilience. Designed for the future of robotics diagnostics.**
