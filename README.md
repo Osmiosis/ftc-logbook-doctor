@@ -1,14 +1,5 @@
 # FTC Log Doctor: A Cross-Modal Prognostic Framework
-
-## The Vision: Beyond Reactive Maintenance
-
-In high-stakes robotics, failure is often treated as an accident. **FTC Log Doctor treats failure as a predictable data signature.**
-
-This platform moves robotics from **Reactive Repairs** to **Prognostic Health Management (PHM)**. By synthesizing asynchronous log streams, it identifies the "Silent Drifts"—mathematical deviations in power and compute—that precede catastrophic hardware failure.
-
 ---
-
-## Core Innovation: The Intelligence Engine
 
 ### 1. Cross-Modal Failure Synthesis
 
